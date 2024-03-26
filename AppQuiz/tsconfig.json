@@ -1,0 +1,11 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "buildOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
+}
